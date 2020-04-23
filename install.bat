@@ -1,4 +1,4 @@
-curl https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe -output python.exe
+curl https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe -o python.exe
 python.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0                             
 pip install jupyterlab
 pip install notebook
