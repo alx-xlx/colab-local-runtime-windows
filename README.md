@@ -34,7 +34,7 @@ Mounting your Google Drive is only available on Hosted Runtime.
 
 So to get around this limitation we will use a tool called RaiDrive. This tool enables us to Mount almost all Cloud Storages as Local/Physical Disks.
 
-Free Plan  - *Google Drive, OneDrive, Dropbox, Google Drive Shared drives, OneDrive Business, WebDAV, SFTP, FTP*
+Free Plan - *Google Drive, OneDrive, Dropbox, Google Drive Shared drives, OneDrive Business, WebDAV, SFTP, FTP*
 
 **This is Great !!**
 
@@ -47,3 +47,8 @@ Free Plan  - *Google Drive, OneDrive, Dropbox, Google Drive Shared drives, OneDr
   RaiDrive_2020.2.12.exe /exenoui
   ```
 2. Mount your Google Drive OR any other Cloud Storage Services
+
+List Drives
+```
+wmic logicaldisk get volumename,name
+```
